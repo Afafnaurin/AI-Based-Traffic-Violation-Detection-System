@@ -1,0 +1,9 @@
+path: ./datasets/helmet_dataset
+train: train/images
+val: valid/images
+test: test/images
+names:
+  0: full-faced
+  1: half-faced
+  2: invalid
+  3: no helmet

@@ -1,0 +1,50 @@
+# Local environments and Python cache
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+
+# Local inputs and datasets
+input_videos/
+datasets/*
+!datasets/.gitkeep
+work/
+
+# Model weights and YOLO experiment artifacts
+*.pt
+*.pth
+*.onnx
+*.engine
+weights/
+runs/
+
+# Generated videos, evidence, logs, and reports
+outputs/*
+!outputs/.gitkeep
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.log
+
+# Jupyter and local notebook artifacts
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.secret
+
+# Machine-specific files
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
